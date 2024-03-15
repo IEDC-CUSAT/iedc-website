@@ -61,8 +61,8 @@ const Card = ({ heading, icon, date, index, description, venue, time }) => {
                         <p className=' font-normal text-lg md:text-2xl'>Venue : {venue}</p>
                         <p className=' font-normal text-lg md:text-2xl'>Time : {time}</p>
                     </div>
-                    <div className='py-2 px-5 md:py-3 md:px-8 rounded-[78px] bg-[#1A1A1A] mr-auto'>
-                        <p className='text-sm md:text-lg text-white'>{date}</p>
+                    <div className='py-3 px-5 md:py-3 md:px-8 rounded-[78px] bg-[#1A1A1A] mr-auto'>
+                        <p className='text-sm md:text-lg text-white my-auto'>{date}</p>
                     </div>
                 </div>
                 <div className=' md:col-span-1 w-full hidden md:block'>
