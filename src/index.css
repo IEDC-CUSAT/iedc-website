@@ -429,3 +429,51 @@ code {
 .navbar-dark .navbar-text a:focus {
   color: #FFFEFE;
 }
+
+
+
+.header-social-links a {
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s;
+  padding: 5px;
+}
+
+.header-social-links a i {
+  line-height: 0;
+  font-size: 3rem;
+}
+
+.instagram:hover{
+  transform: scale(1.5);
+  color: #fff;
+  background: #E1306C;
+  border-radius: 5px;
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+}
+
+.linkedin:hover{
+  transform: scale(1.5);
+  color: #fff;
+  background: #007bb6;
+  border-radius: 5px;
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+}
+
+
+@media (max-width: 768px) {
+  .header-social-links {
+    padding: 0 15px 0 0;
+  }
+}
