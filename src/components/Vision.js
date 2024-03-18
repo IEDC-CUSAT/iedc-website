@@ -6,18 +6,18 @@ import { motion } from 'framer-motion';
 const data = [
     {
         id: 1,
-        title: "Lorem ipsum dolor sit amet",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        title: "Promoting Innovation",
+        description: "Our goal is to create a setting where students feel free to experiment with new ideas and where innovation is encouraged.",
     },
     {
         id: 2,
-        title: "Lorem ipsum dolor sit amet",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        title: "Fostering Collaboration",
+        description: " We give teachers and students the tools and assistance they need to work together productively and transform ideas into real initiatives.",
     },
     {
         id: 3,
-        title: "Lorem ipsum dolor sit amet",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        title: "Promoting Entrepreneurship",
+        description: "We want to help students develop an entrepreneurial attitude by giving them the tools and chances to lead innovation and effect good change.",
     },
     
 
