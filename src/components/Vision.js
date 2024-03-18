@@ -114,8 +114,8 @@ const Vision = () => {
     }, [activeCard, timerPaused, time]);
 
     return (
-        <div className='w-full px-6 md:px-24 pb-8 md:pb-16'>
-            <p className='w-full md:w-full font-normal text-4xl md:text-7xl !leading-tight uppercase text-center pb-10 md:pb-[70px]'>Vision and Mision</p>
+        <div className='w-full px-6 md:px-24 pb-8 md:pb-20'>
+            <p className='w-full md:w-full font-normal text-4xl md:text-7xl !leading-tight uppercase text-center pb-4'>Vision and Mision</p>
             <div className='w-full flex flex-col-reverse md:flex-row overflow-hidden gap-x-16 gap-y-6'>
                 <div className='flex md:w-full h-full flex-col my-auto'>
                     {data.map((cardDetail) => (

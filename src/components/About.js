@@ -4,13 +4,13 @@ import tick from '../asssets/img/manager/tick.png'
 
 const About = () => {
     return (
-        <section style={{minHeight : "100vh"}} className="pt-5" id="about">
+        <section className=" pt-8 md:pt-20" id="about">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 pb-5"><img className="img-fluid" src={aboutImg} alt="" /></div>
                     <div className="col-lg-6">
                          {/* <h5 className="text-secondary">Easier decision making for</h5>  */}
-                        <p className="fs-7 fw-bold mb-2">About Us</p>
+                        <p className="w-full md:w-full font-normal text-4xl md:text-7xl !leading-tight uppercase">About Us</p>
                         <p className="mb-4 fw-medium text-secondary">
                             IEDC CUSAT is a government-funded organization that aims to promote entrepreneurship among students and
                             young professionals in India. The organization was established with the goal of fostering a culture of

@@ -75,8 +75,8 @@ const Card = ({ heading, icon, date, index, description, venue, time }) => {
 
 const Events = () => {
     return (
-        <div className='px-6 md:px-24 py-12 md:py-24 flex flex-col'>
-            <p className='font-normal text-4xl md:text-8xl max-w-4xl text-center uppercase mx-auto pb-10 md:pb-[70px]'>EVENTS</p>
+        <div className='px-6 md:px-24 py-8 md:py-20 flex flex-col'>
+            <p className='w-full md:w-full font-normal text-4xl md:text-8xl !leading-tight uppercase text-center pb-4'>EVENTS</p>
 
             <div>
                 {data.map((cardDetail, index) => (
