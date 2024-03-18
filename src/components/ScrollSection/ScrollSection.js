@@ -21,7 +21,7 @@ const ScrollSection = () => {
     });
   });
   return (
-    <div className="container">
+    <div className="container w-screen h-2/3 justify-start pt-10 flex flex-col gap-2">
       <h1 class="text">
         IEDC<span>IEDC</span>
       </h1>
