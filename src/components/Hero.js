@@ -4,15 +4,12 @@ import "../index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Hero = () => {
-  // const [isOpen, setIsOpen] = useState(false);
-
-  // const toggleNavbar = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
   return (
     <>
-      <section id="home" className=" border-t-2 py-10 border-black border-opacity-50">
+      <section
+        id="home"
+        className=" border-t-2 py-10 border-black border-opacity-50"
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 text-md-start text-center">
@@ -24,7 +21,6 @@ const Hero = () => {
                 <br className="d-none d-xl-block" />
                 Join us!
               </p>
-              
             </div>
             <div className="col-md-6 text-end">
               {/* <img className="pt-7 pt-md-0 img-fluid" src={Hero1} alt="" /> */}
