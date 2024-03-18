@@ -12,7 +12,7 @@ const Hero = () => {
 
   return (
     <>
-      <section id="home">
+      <section id="home" className=" border-t-2 py-10 border-black border-opacity-50">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 text-md-start text-center">
@@ -24,6 +24,10 @@ const Hero = () => {
                 <br className="d-none d-xl-block" />
                 Join us!
               </p>
+              
+            </div>
+            <div className="col-md-6 text-end">
+              {/* <img className="pt-7 pt-md-0 img-fluid" src={Hero1} alt="" /> */}
               <div className="text-center text-md-start">
                 <div className="header-social-links d-flex align-items-center">
                   <a
@@ -61,9 +65,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-6 text-end">
-              <img className="pt-7 pt-md-0 img-fluid" src={Hero1} alt="" />
-            </div> */}
           </div>
         </div>
       </section>
