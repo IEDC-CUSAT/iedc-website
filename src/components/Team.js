@@ -77,6 +77,39 @@ const teamData = [
       },
     ],
   },
+  {
+    name: "Swsthik H Nair",
+    role: "CQO",
+    image: "SWSTHIK.jpg",
+    social: [
+      {
+        platform: "linkedin",
+        url: "#",
+      },
+    ],
+  },
+  {
+    name: "ARUN KN",
+    role: "CCO",
+    image: "arunkn.jpeg",
+    social: [
+      {
+        platform: "linkedin",
+        url: "#",
+      },
+    ],
+  },
+  {
+    name: "Abhin P T",
+    role: "CSRO",
+    image: "abhin.jpg",
+    social: [
+      {
+        platform: "linkedin",
+        url: "#",
+      },
+    ],
+  },
 ];
 
 const Team = () => {

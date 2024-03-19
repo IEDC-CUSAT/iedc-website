@@ -1,7 +1,7 @@
 import Events from "./components/Events";
 import Vision from "./components/Vision";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 import ScrollSection from "./components/ScrollSection/ScrollSection";
 import About from "./components/About";
 import Team from "./components/Team";
@@ -15,7 +15,7 @@ function App() {
       <Events />
       <Vision />
       <Team />
-      <Hero />
+      <Footer />
     </div>
   );
 }

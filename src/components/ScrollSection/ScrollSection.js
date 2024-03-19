@@ -22,13 +22,13 @@ const ScrollSection = () => {
   });
   return (
     <div className="container w-screen h-2/3 justify-start pt-10 flex flex-col gap-2">
-      <h1 class="text">
+      <h1 class="text items-start">
         IEDC<span>IEDC</span>
       </h1>
-      <h1 class="text">
+      <h1 class="text items-center">
         CUSAT<span>CUSAT</span>
       </h1>
-      <h1 class="text">
+      <h1 class="text items-end">
         2024<span>2024</span>
       </h1>
     </div>

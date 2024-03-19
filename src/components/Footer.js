@@ -3,7 +3,7 @@ import Hero1 from "../asssets/img/hero/hero1.jpg";
 import "../index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Hero = () => {
+const Footer = () => {
   return (
     <>
       <section
@@ -23,7 +23,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="col-md-6 text-end">
-              {/* <img className="pt-7 pt-md-0 img-fluid" src={Hero1} alt="" /> */}
+              {/* <img className="pt-7 pt-md-0 img-fluid" src={Footer1} alt="" /> */}
               <div className="text-center text-md-start">
                 <div className="header-social-links d-flex align-items-center">
                   <a
@@ -68,4 +68,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Footer;
