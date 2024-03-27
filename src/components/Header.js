@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg navbar-light sticky-top"
+        className="navbar navbar-expand-lg navbar-light sticky-top bg-transparent"
         data-navbar-on-scroll="data-navbar-on-scroll"
       >
         <div className="container">
@@ -30,32 +30,48 @@ const Header = () => {
             className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#home">
+            <ul className=" gap-3 navbar-nav ms-auto ">
+              <li className="">
+                <a
+                  className=" hover:text-[#118e8e]"
+                  aria-current="page"
+                  href="#home"
+                >
                   Home
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#about">
+              <li className="">
+                <a
+                  className=" hover:text-[#118e8e]"
+                  aria-current="page"
+                  href="#about"
+                >
                   About Us
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#mission">
+              <li className="">
+                <a
+                  className=" hover:text-[#118e8e]"
+                  aria-current="page"
+                  href="#mission"
+                >
                   Mission
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#vision">
+              <li className="">
+                <a
+                  className=" hover:text-[#118e8e] "
+                  aria-current="page"
+                  href="#vision"
+                >
                   Vision
                 </a>
               </li>
             </ul>
             <div className="d-flex ms-lg-4 mb-2">
-              <a className="btn btn-warning" href="#events">
+              <button className="rounded-md bg-[#00062f] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#118e8e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Events
-              </a>
+              </button>
             </div>
           </div>
         </div>

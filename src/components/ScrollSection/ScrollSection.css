@@ -13,7 +13,7 @@
   margin: 0;
 
   width: 100%;
-  color: rgba(24, 11, 11, 0.749);
+  color: #180b0bbf;
   background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
@@ -33,8 +33,8 @@ span {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #3f264f;
-  color: #c8b3b3;
+  background-color: #00062f;
+  color: #118e8e;
 
   clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
   transform-origin: center;

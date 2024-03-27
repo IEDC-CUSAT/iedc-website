@@ -5,12 +5,14 @@ import Footer from "./components/Footer";
 import ScrollSection from "./components/ScrollSection/ScrollSection";
 import About from "./components/About";
 import Team from "./components/Team";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Header />
-      <ScrollSection />
+      {/* <ScrollSection /> */}
+      <Hero />
       <About />
       <Events />
       <Vision />
