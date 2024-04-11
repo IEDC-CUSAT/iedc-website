@@ -32,7 +32,7 @@ const Hero = () => {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <button className="rounded-md bg-[#00062f] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#118e8e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                Learn More
+                About IEDC
               </button>
               {/* <a
                 href="#"
@@ -40,6 +40,9 @@ const Hero = () => {
               >
                 Learn more <span aria-hidden="true">→</span>
               </a> */}
+              <button className="rounded-md bg-[#00062f] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#118e8e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                About CITTIC
+              </button>
             </div>
           </div>
         </div>
