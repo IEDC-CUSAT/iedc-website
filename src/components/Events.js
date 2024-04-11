@@ -119,7 +119,7 @@ const Card = ({ heading, icon, date, index, description, venue, time }) => {
 
 const Events = () => {
   return (
-    <div className="px-6 md:px-24 py-8 md:py-20 flex flex-col">
+    <div className="px-6 md:px-24 py-8 md:py-20 flex flex-col" id="events">
       <p className="w-full md:w-full font-normal text-[#00062f] text-4xl md:text-7xl !leading-tight uppercase text-center pb-4">
         EVENTS
       </p>
