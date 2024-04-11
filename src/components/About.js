@@ -5,8 +5,8 @@ import aboutImg from "../asssets/img/manager/about.jpg";
 
 const About = () => {
   return (
-    <section className=" pt-8 md:pt-20 items-center" id="about">
-      <div className="container py-10 px-5">
+    <section className=" pt-8 md:pt-0 items-center" id="about">
+      <div className="container py-9 md:py-16 px-5">
         <div className="row">
           <div className="col-lg-6 pb-5">
             <img className="img-fluid" src={aboutImg} alt="" />
@@ -83,7 +83,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="container py-10 px-5">
+      <div className="container py-9 md:py-16 px-5">
         <div className="flex items-center justify-center">
           <div className="col-lg-6">
             {/* <h5 className="text-secondary">Easier decision making for</h5>  */}

@@ -1,11 +1,12 @@
 import React from "react";
 import iedcLogo from "../asssets/img/iedc.png";
+import iedcksum from "../asssets/img/iedcksum.png";
 
 const Hero = () => {
   return (
     <div>
       {" "}
-      <div className="relative isolate px-6  lg:px-8">
+      <div className="relative isolate px-6  lg:px-8 md:-mt-28">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -26,20 +27,18 @@ const Hero = () => {
             {/* <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               IEDC CUSAT
             </h1> */}
-            <img className="max-w-[220px]" src={iedcLogo} alt="" />
+            <img className="w-32 md:w-[250px]" src={iedcLogo} alt="" />
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Innovation and Entrepreneurship Development Cell, CUSAT
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="flex flex-row gap-10">
+              <img className="w-32 md:w-[250px]" src={iedcksum} alt="" />
+              <img className=" my-auto w-32 md:w-[250px]" src='./citticlogo.svg' alt="" />
+            </div>
+            <div className="mt-2 flex items-center justify-center gap-x-48">
               <button className="rounded-md bg-[#00062f] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#118e8e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 About IEDC
               </button>
-              {/* <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                Learn more <span aria-hidden="true">→</span>
-              </a> */}
               <button className="rounded-md bg-[#00062f] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#118e8e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 About CITTIC
               </button>

@@ -66,18 +66,18 @@ const people = [
 
 export default function Example() {
   return (
-    <div className="bg-white py-32" id="team">
+    <div className="bg-white py-9 md:py-16" id="team">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="font-normal text-4xl md:text-7xl !leading-tight uppercase text-center text-gray-900">
             Meet our team
           </h2>
-          <p className="mt-4 text-lg leading-8 text-gray-600">
+          <p className=" text-lg leading-8 text-gray-600">
             We’re a dynamic group of individuals who are passionate about what
             we do.
           </p>
         </div>
-        <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <ul className="mx-auto mt-10 md:mt-20 grid max-w-2xl grid-cols-1 md:gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 pl-0">
           {people.map((person) => (
             <li key={person.name}>
               <img
