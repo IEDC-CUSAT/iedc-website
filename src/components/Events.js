@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Event1 from "../asssets/Event1.jpeg";
 
 const data = [
@@ -82,7 +82,7 @@ const Card = ({ heading, icon, date, index, description, venue, time }) => {
   };
 
   return (
-    <div
+    <motion.div
       className="overflow-hidden flex w-full odd:border-y-[2px] border-opacity-40 border-black gap-2 md:gap-4 py-5 md:py-8 cursor-pointer"
       key={index}
       onMouseEnter={handleHover}
@@ -113,7 +113,7 @@ const Card = ({ heading, icon, date, index, description, venue, time }) => {
           {/* <img src={icon2} alt="icon" className={` w-9 ml-auto }`} /> */}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
