@@ -14,7 +14,7 @@ function App() {
       {/* <ScrollSection /> */}
       <Hero />
       <About />
-      {/* <Events /> */}
+      <Events />
       <Vision />
       <Team />
       <Footer />
