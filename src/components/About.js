@@ -122,12 +122,12 @@ const About = () => {
               </div>
             </div>
             <p className="mb-4 fw-medium text-secondary text-center">
-              IEDC CUSAT is a government-funded organization that aims to
-              promote entrepreneurship among students and young professionals in
-              India. The organization was established with the goal of fostering
-              a culture of innovation and entrepreneurship among the student
-              community and to provide the necessary support for the conversion
-              of innovative ideas into successful ventures.
+              CITTIC CUSAT provide a springboard to budding entrepreneurs who
+              wish to launch themselves into the world of technology based
+              business careers. In CITTIC, bright ideas can be developed to a
+              product or service using advanced technology solutions. This
+              innovation centre is designed to provide all the support to make
+              business ventures successful.
               <br />
             </p>
           </div>

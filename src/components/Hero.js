@@ -19,7 +19,7 @@ const Hero = () => {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-18 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-18 sm:py-48 lg:py-48">
           {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
 
           </div> */}
@@ -27,22 +27,30 @@ const Hero = () => {
             {/* <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               IEDC CUSAT
             </h1> */}
-            <img className="w-32 md:w-[250px]" src={iedcLogo} alt="" />
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <img className="w-28 md:w-[250px]" src={iedcLogo} alt="" />
+            <p className=" text-xl leading-8 text-gray-600 -mt-9">
               Innovation and Entrepreneurship Development Cell, CUSAT
             </p>
-            <div className="flex flex-row gap-10">
-              <img className="w-32 md:w-[250px]" src={iedcksum} alt="" />
-              <img className=" my-auto w-32 md:w-[250px]" src='./citticlogo.svg' alt="" />
+            <div className="flex flex-row gap-10 justify-center items-center">
+              <a href="https://iedc.startupmission.in/">
+                <img className="w-32 md:w-[250px]" src={iedcksum} alt="" />
+              </a>
+              <a href="https://cittic.cusat.ac.in/">
+                <img
+                  className=" my-auto w-32 md:w-[250px]"
+                  src="./citticlogo.svg"
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="mt-2 flex items-center justify-center gap-x-48">
+            {/* <div className="mt-2 flex items-center justify-center gap-x-48">
               <button className="rounded-md bg-[#00062f] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#118e8e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 About IEDC
               </button>
               <button className="rounded-md bg-[#00062f] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#118e8e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 About CITTIC
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div

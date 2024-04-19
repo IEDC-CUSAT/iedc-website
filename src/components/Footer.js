@@ -72,7 +72,6 @@
 const navigation = {
   main: [
     { name: "About", href: "#about" },
-    { name: "Mission", href: "#" },
     { name: "Vision", href: "#vision" },
     { name: "Events", href: "#events" },
     { name: "Team", href: "#team" },
