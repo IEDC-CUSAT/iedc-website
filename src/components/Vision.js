@@ -1,21 +1,28 @@
 import React, { useState, useEffect, useRef } from "react";
-import { motion } from "framer-motion";
+import { FaHandsHelping } from "react-icons/fa";
+import { IoBusinessSharp } from "react-icons/io5";
+import { FaLightbulb } from "react-icons/fa6";
+
+
 
 const data = [
     {
         id: 1,
         title: "Promoting Innovation",
         description: "Our aim is to cultivate a setting where students feel empowered to explore new ideas freely and where innovation is not only endorsed but celebrated.",
+        icons: <FaLightbulb className='w-12 h-12 md:w-24 md:h-24 text-blue-700 mx-auto mb-10' />,
     },
     {
         id: 2,
         title: "Fostering Collaboration",
         description: " We give teachers and students the tools and assistance they need to work together productively and transform ideas into real initiatives.",
+        icons: <FaHandsHelping className='w-12 h-12 md:w-24 md:h-24 text-blue-700 mx-auto mb-10' />,
     },
     {
         id: 3,
         title: "Promoting Entrepreneurship",
         description: "We want to help students develop an entrepreneurial attitude by giving them the tools and chances to lead innovation and effect good change.",
+        icons: <IoBusinessSharp className='w-12 h-12 md:w-24 md:h-24 text-blue-700 mx-auto mb-10' />,
     },
 
 
@@ -28,6 +35,7 @@ const Card = ({
   activeCard,
   onCardClick,
   pauseTimer,
+  icons,
   resumeTimer,
   time,
 }) => {
@@ -50,6 +58,8 @@ const Card = ({
 
     return (
         <div className={`flex flex-col w-full bg-[#F7F7F8] px-12 rounded-full aspect-square text-center justify-end pb-20`}>
+            {/* <HiLightBulb className='w-12 h-12 md:w-24 md:h-24 text-blue-700 mx-auto my-auto mx-auto' /> */}
+            {icons}
             <p className='font-normal text-lg md:text-2xl'>{title}</p>
             <p className='font-normal text-xs md:text-base'>{description}</p>
         </div>
@@ -110,6 +120,7 @@ const Vision = () => {
               id={cardDetail.id}
               title={cardDetail.title}
               description={cardDetail.description}
+              icons={cardDetail.icons}
               activeCard={activeCard}
               onCardClick={handleCardClick}
               pauseTimer={pauseTimer}
