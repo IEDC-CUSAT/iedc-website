@@ -57,7 +57,7 @@ const people = [
   },
   {
     name: "Varsha Shaheen",
-    role: "Chief Creatives Officer",
+    role: "IPR & Research Lead",
     imageUrl: "varsha.jpg",
     // xUrl: "#",
     linkedinUrl: "https://www.linkedin.com/in/varsha-shaheen/",
